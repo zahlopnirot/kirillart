@@ -1,0 +1,136 @@
+
+.header {
+	 width: 100%;
+	 height: 60px;
+	 background-color: #f6ab15;
+	 text-align: center;
+     padding-top: 10px;
+}
+
+.logo2{
+	 width: 300px;
+	 height: 70px;
+	 background: url("img/logo2.png") no-repeat;
+	 padding-left: 10px;
+	 margin-top: 5px;
+	 margin-left: 7%;
+}
+
+.reg {
+	 float: right;
+	 padding-top: 1.5%;
+	 padding-right: 2%;
+}
+
+.reg a {
+	 font-family: verdana;
+	 font-size: 17px;
+	 color: white;
+	 text-decoration: none;
+}
+
+.reg a:hover {
+	 color: #FFE185;
+}
+
+.block2 {
+	 width: 55%;
+	 margin: 10px auto;
+	 height: 1500px;
+	 background-color: #FFF6CC;
+	 text-align: left;
+     vertical-align: top;
+	 padding: 20px;
+     padding-top: 5px;
+	 font-family: verdana;
+}
+
+h2 {
+	 font-size: 20px;
+	 margin-left: 20px;
+}
+
+.ramka1 {
+	 display: inline-block;
+	 width: auto;
+	 height: auto;
+	 background-color: white;
+	 padding-left: 5px;
+	 margin-top: 2%;
+	 color: #505050;
+	 padding-top: -5px;
+}
+
+.footer {
+	 clear: both;
+	 width: 100%;
+	 height: 40px;
+	 margin-top: 10px;
+	 background-color: #f6ab15;
+	 text-align: center;
+	 padding-top: 10px;
+	 color: white;
+}	
+
+.main-menu {
+	 position: fixed;
+	 margin-left: 7%;
+	 width: 180px;
+	 padding: 0;
+	 margin-top: 10px;
+	 margin-legt: 40px;
+	 list-style: none;
+	 background-color: #FFF6CC;
+}
+
+.main-menu a {
+	 display: block;
+	 color: #505050;
+	 text-decoration: none;
+	 padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;	 
+	 margin-bottom: -1px;
+	 font-family: verdana;
+	 font-size: 17px;
+	 border-bottom: 2px solid #FFDA61;
+}
+
+.main-menu .active a:hover {
+	 background-color: #FFCC00;
+}
+
+.main-menu a:hover {
+	 background-color: #FFE185;
+}
+
+.main-menu .active {
+	 background-color: #F4A900;
+}
+
+.main-menu .active a {
+     color: white;
+	 border-bottom: 2px solid #F4A900;
+}
+
+.main-menu > li {
+	 position: relative;
+}
+
+.main-menu .sub-menu {
+	 position: absolute;
+	 z-index: 10;
+	 top: 10px;
+	 left: 130px;
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 width: 130px;
+	 background-color: #ffffff;
+	 border: 1px solid #F4A900;
+	 display: none;
+}
+
+.main-menu  > li:hover .sub-menu {
+	 display: block;
+}
