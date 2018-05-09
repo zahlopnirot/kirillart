@@ -34,11 +34,9 @@
 }
 
 .block2 {
-	 display: inline-block;
-	 float: left;
+	 display: block;
 	 width: 55%;
 	 margin: 10px auto;
-	 margin-left: 10px;
 	 height: 1500px;
 	 background-color: #FFF6CC;
 	 padding: 20px;
@@ -63,7 +61,6 @@ h2 {
 }
 
 .footer {
-	 clear: both;
 	 width: 100%;
 	 height: 40px;
 	 margin-top: 10px;
@@ -75,12 +72,11 @@ h2 {
 
 .main-menu {
 	 display: block;
-	 float: left;
-	 margin-left: 7%;
-	 width: 180px;
+	 position: fixed;
+	 width: 13%;
 	 padding: 0;
-	 margin-top: 10px;
-	 margin-legt: 40px;
+	 left: 7%;
+	 top: 11%;
 	 list-style: none;
 	 background-color: #FFF6CC;
 }

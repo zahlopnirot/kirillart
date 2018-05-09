@@ -34,12 +34,13 @@
 }
 
 .block2 {
+	 display: inline-block;
+	 float: left;
 	 width: 55%;
 	 margin: 10px auto;
+	 margin-left: 10px;
 	 height: 1500px;
 	 background-color: #FFF6CC;
-	 text-align: left;
-     vertical-align: top;
 	 padding: 20px;
      padding-top: 5px;
 	 font-family: verdana;
@@ -73,12 +74,13 @@ h2 {
 }	
 
 .main-menu {
-	 position: fixed;
+	 display: block;
+	 float: left;
 	 margin-left: 7%;
 	 width: 180px;
 	 padding: 0;
 	 margin-top: 10px;
-	 margin-legt: 40px;
+	 margin-left: 40px;
 	 list-style: none;
 	 background-color: #FFF6CC;
 }
